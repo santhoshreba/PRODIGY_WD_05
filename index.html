@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-cloud-sun"></i> Weather App</h1>
+        
+        <div class="search-container">
+            <input type="text" id="location-input" placeholder="Enter city name">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <button id="current-location-btn"><i class="fas fa-location-arrow"></i> Use My Location</button>
+        
+        <div class="weather-info" id="weather-info">
+            <!-- Weather data will be displayed here -->
+        </div>
+
+        <div class="forecast-container" id="forecast-container">
+            <!-- Forecast data will be displayed here -->
+        </div>
+    </div>
+    
+    <div class="footer">
+        PRODIGY INFOTECH - Weather App
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
